@@ -1,0 +1,82 @@
+[
+    {
+        "tool": "HTML",
+        "percentage": "85",
+        "picture": "https://i.ibb.co/Y0MYPPc/icons8-html-logo-100.png"
+    },
+    {
+        "tool": "CSS",
+        "percentage": "85",
+        "picture": "https://i.ibb.co/w4Dm0HJ/icons8-css-logo-100.png"
+    },
+    {
+        "tool": "Github",
+        "percentage": "70",
+        "picture": "https://i.ibb.co/nk8nLjF/icons8-github-100.png"
+    },
+    {
+        "tool": "Bootstrap",
+        "percentage": "85",
+        "picture": "https://i.ibb.co/LYzkmpB/icons8-bootstrap-logo-100.png"
+    },
+    {
+        "tool": "Tailwind CSS",
+        "percentage": "90",
+        "picture": "https://i.ibb.co/F4HcJyy/icons8-tailwindcss-100.png"
+    },
+    {
+        "tool": "Material UI",
+        "percentage": "80",
+        "picture": "https://i.ibb.co/D8Hv1Tr/icons8-material-ui-100.png"
+    },
+    {
+        "tool": "JavaScript",
+        "percentage": "85",
+        "picture": "https://i.ibb.co/NZ0Ny2Q/icons8-javascript-logo-100.png"
+    },
+    {
+        "tool": "React JS",
+        "percentage": "85",
+        "picture": "https://i.ibb.co/rwjNhtt/icons8-react-100.png"
+    },
+    {
+        "tool": "Figma",
+        "percentage": "90",
+        "picture": "https://i.ibb.co/4RxxGh1/icons8-figma-100.png"
+    },
+    {
+        "tool": "Node Js",
+        "percentage": "70",
+        "picture": "https://i.ibb.co/V2CsPPc/icons8-nodejs-100.png"
+    },
+    {
+        "tool": "MongoDB",
+        "percentage": "60",
+        "picture": "https://i.ibb.co/qNKjRbt/icons8-mongodb-100.png"
+    },
+    {
+        "tool": "Firebase",
+        "percentage": "60",
+        "picture": "https://i.ibb.co/zNrJtgK/icons8-firebase-100.png"
+    },
+    {
+        "tool": "TypeScript",
+        "percentage": "50",
+        "picture": "https://i.ibb.co/J5WkpCm/icons8-typescript-100.png"
+    },
+    {
+        "tool": "Redux",
+        "percentage": "60",
+        "picture": "https://i.ibb.co/xhQQDjZ/icons8-redux-100.png"
+    },
+    {
+        "tool": "Next.js",
+        "percentage": "50",
+        "picture": ""
+    },
+    {
+        "tool": "Express.js",
+        "percentage": "60",
+        "picture": ""
+    }
+]
