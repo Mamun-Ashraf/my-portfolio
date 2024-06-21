@@ -1,8 +1,8 @@
 [
     {
-        "projectName": "Developer Portfolio",
-        "picture": "https://i.ibb.co/5xc33z7/developer-portfolio-01.png",
-        "projectUrl": "https://mamun-ashraf.github.io/developer-portfolio/"
+        "projectName": "Best Shopping",
+        "picture": "https://i.ibb.co/Dz8cvCM/Capture.png",
+        "projectUrl": "https://best-shopping-client.vercel.app/"
     },
     {
         "projectName": "New Year New Me",
@@ -38,5 +38,10 @@
         "projectName": "Legal Solution",
         "picture": "https://i.ibb.co/MCdRRkj/legal-solution-01.png",
         "projectUrl": "https://poetic-starlight-df0dfe.netlify.app/"
+    },
+    {
+        "projectName": "Developer Portfolio",
+        "picture": "https://i.ibb.co/5xc33z7/developer-portfolio-01.png",
+        "projectUrl": "https://mamun-ashraf.github.io/developer-portfolio/"
     }
 ]

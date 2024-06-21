@@ -1,7 +1,7 @@
 const Projects = ({ project }) => {
   const { projectName, picture, projectUrl } = project;
   return (
-    <div className="bg-transparent border border-purple-300 rounded-xl pb-5 px">
+    <div className="bg-transparent border border-purple-300 rounded-xl py-5">
       <img src={picture} alt="" className="w-3/4 mx-auto" />
       <div className="flex gap-5 justify-center text-white">
         <a href={projectUrl}>

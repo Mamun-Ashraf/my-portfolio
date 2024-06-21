@@ -1,4 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { FaBars } from "react-icons/fa6";
+import { Link, Outlet } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 const MainLayout = () => {
   return (
@@ -8,11 +10,13 @@ const MainLayout = () => {
         {/* Page content here */}
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-primary drawer-button lg:hidden"
+          className="btn btn-primary drawer-button lg:hidden ms-5 mt-5"
         >
-          Open drawer
+          <FaBars />
         </label>
-        <Outlet />
+        <div className="">
+          <Outlet />
+        </div>
       </div>
       <div className="drawer-side">
         <label
@@ -23,19 +27,30 @@ const MainLayout = () => {
         <ul className="menu p-4 w-80 min-h-full bg-neutral-400 text-white">
           {/* Sidebar content here */}
           <li className="hover:text-primary hover:text-lg">
-            <a href="home">Home</a>
+            <ScrollLink to="home" smooth={true} duration={1000}>
+              Back to Top
+            </ScrollLink>
           </li>
           <li className="hover:text-primary hover:text-lg">
-            <a href="skills">Skills</a>
+            <ScrollLink to="skills" smooth={true} duration={1000}>
+              Skills
+            </ScrollLink>
           </li>
           <li className="hover:text-primary hover:text-lg">
-            <a href="projects">Projects</a>
+            <ScrollLink to="projects" smooth={true} duration={1000}>
+              Projects
+            </ScrollLink>
           </li>
           <li className="hover:text-primary hover:text-lg">
-            <a href="about">About Me</a>
+            <ScrollLink to="about" smooth={true} duration={1000}>
+              About Me
+            </ScrollLink>
           </li>
           <li className="hover:text-primary hover:text-lg">
-            <a href="contact">Contact Me</a>
+            <Link to="/contact">Contact Me</Link>
+          </li>
+          <li className="hover:text-primary hover:text-lg">
+            <Link to="/">Home Page</Link>
           </li>
         </ul>
       </div>
